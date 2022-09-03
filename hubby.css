@@ -1,0 +1,113 @@
+/* !IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN WEBSITE LANDING PAGE */
+
+body{
+    background-image: url(/images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: 'Open-sans' , sans-serif;
+}
+
+#nav{
+    margin-top: 3rem;
+}
+
+.Huddle-logo{
+    width:13rem;
+}
+
+/* HERO SECTION */
+
+#hero{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.mockups-1{
+    width: 80%;
+}
+
+.text-part{
+    text-align: center;
+    color: white;
+}
+
+.intro1{
+    margin-bottom: 1rem;
+}
+
+.intro-2{
+    margin-bottom: 1rem;
+}
+
+.get-button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.get-started{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 9rem;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.get-started:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    font-family: 'Open-sans' ,sans-serif;
+}
+
+/* MEDIA RESPONSIVITY */
+@media screen and (min-width:650px) {
+    .Huddle-logo{
+        width: 14rem;
+    }
+
+    .mockups-1{
+        width: 25rem;
+        margin-left: 5rem;
+    }
+    
+}
+
+@media screen and (min-width:750px) {
+    .Huddle-logo{
+        width: 30%;
+    }
+
+    .mockups-1{
+        margin-left: 11rem;
+        /* margin-right: auto; */
+    }
+}
+
+@media screen and (min-width:950px) {
+    .Huddle-logo{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+    #hero{
+        display: flex;
+    }
+    
+    .text-part{
+        text-align: left;
+        margin-left: 5rem;
+    }
+}
